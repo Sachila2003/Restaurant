@@ -34,7 +34,6 @@
                     <div class="about-slide">
                         <img src="assets/images/about3.jpg" alt="Signature Dish">
                     </div>
-                    <!-- ඔයාට අවශ්‍ය නම් තව slides එකතු කරන්න -->
                 </div>
             </div>
 
@@ -55,5 +54,52 @@
         </div>
     </div>
 </section>
+<section id="menu">
+    <div class="container">
+        <div class="section-title animate-on-scroll from-bottom">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="rice">Rice</button>
+                <button class="filter-btn" data-category="kottu">Kottu</button>
+                <button class="filter-btn" data-category="biriyani">Special Biriyani</button>
+        </div>
+        <di class="menu-grid">
+            <div class="product-card animate-on-scroll from-bottom" data-category="rice">
+                <div class="product-slider-container">
+                    <div class="product-slider">
+                        <div class="product-slider active"><img src="/assets//images/about1.jpg" alt="Rice Dish 1"></div>
+                        <div class="product-slider"><img src="/assets//images/about2.jpg" alt="Rice Dish 2"></div>
+                        <div class="product-slider"><img src="/assets//images/about3.jpg" alt="Rice Dish 3"></div>
+                    </div>
+                </div>
+                <div class="product-card-body">
+                    <h3 class="product-title">Special Chiken Fried Rice</h3>
+                    <p class="product-description">A classic stir-fry with fresh vegetables, egg, and tender chiken pleces.</p>
+                    <p class="product-price">Rs. 1200.00</p>
+                    <div class="product-action">
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="product-card animate-on-scroll from-bottom" data-category="rice">
+                <div class="product-slider-container">
+                    <div class="product-slider">
+                        <div class="product-slider active"><img src="/assets//images/about1.jpg" alt="Rice Dish 1"></div>
+                        <div class="product-slider"><img src="/assets//images/about2.jpg" alt="Rice Dish 2"></div>
+                        <div class="product-slider"><img src="/assets//images/about3.jpg" alt="Rice Dish 3"></div>
+                    </div>
+                </div>
+                <div class="product-card-body">
+                    <h3 class="product-title">Special Chiken Fried Rice</h3>
+                    <p class="product-description">A classic stir-fry with fresh vegetables, egg, and tender chiken pleces.</p>
+                    <p class="product-price">Rs. 1200.00</p>
+                    <div class="product-action">
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
 
 <?php include 'includes/footer.php'; ?>
