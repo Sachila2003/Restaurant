@@ -57,6 +57,10 @@
 <section id="menu">
     <div class="container">
         <div class="section-title animate-on-scroll from-bottom">
+            <p class="sub-heading">OUR MENU</p>
+            <h2>Taste Our Creations</h2>
+        </div>
+        <div class="menu-filters animate-on-scroll from-bottom">
                 <button class="filter-btn active" data-category="all">All</button>
                 <button class="filter-btn" data-category="rice">Rice</button>
                 <button class="filter-btn" data-category="kottu">Kottu</button>
