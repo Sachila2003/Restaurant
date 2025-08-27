@@ -55,5 +55,54 @@
         </div>
     </div>
 </section>
+<!-- ================================== -->
+<!--            MENU SECTION            -->
+<!-- ================================== -->
+<section id="menu">
+    <div class="container">
+        <div class="section-title" animate-on-scroll from-bottom>
+            <p class="sub-heading">OUR MENU</p>
+            <h2>Taste Our Creations</h2>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="menu-filters" animate-on-scroll from-bottom>
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="rice">Rice</button>
+            <button class="filter-btn" data-category="kottu">Kottu</button>
+            <button class="filter-btn" data-category="biriyani">Special Biriyani</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" animate-on-scroll from-bottom>
+            
+            <!-- PRODUCT CARD 1 -->
+            <div class="product-card" animate-on-scroll from-bottom data-category="rice">
+                <!-- Mini Image Slider -->
+                <div class="product-slider-container">
+                    <div class="product-slider">
+                        <div class="product-slide active"><img src="assets/images/about1.jpg" alt="Rice Dish 1"></div>
+                        <div class="product-slide"><img src="assets/images/about2.jpg" alt="Rice Dish 2"></div>
+                        <div class="product-slide"><img src="assets/images/about3.jpg" alt="Rice Dish 3"></div>
+                    </div>
+                </div>
+                <!-- Card Body -->
+                <div class="product-card-body">
+                    <h3 class="product-title">Spicy Chicken Fried Rice</h3>
+                    <p class="product-description">A classic stir-fry with fresh vegetables, egg, and tender chicken pieces.</p>
+                    <p class="product-price">Rs. 1500.00</p>
+                    <div class="product-actions">
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF PRODUCT CARD 1 -->
+
+            <!-- You can copy-paste more cards here for testing -->
+
+        </div> <!-- menu-grid end -->
+    </div> <!-- container end -->
+</section> <!-- menu section end -->
+
 
 <?php include 'includes/footer.php'; ?>
