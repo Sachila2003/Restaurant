@@ -75,14 +75,15 @@
                 </div>
                 <div class="product-card-body">
                     <h3 class="product-title">Spicy Chicken Fried Rice</h3>
-                    <p class="product-description">A classic stir-fry with fresh vegetables, egg, and tender chicken pieces.</p>
+                    <p class="product-description">A classic stir-fry with fresh vegetables, egg, and tender chicken
+                        pieces.</p>
                     <p class="product-price">Rs. 1500.00</p>
                     <div class="product-actions">
                         <button class="btn-add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            
+
             <div class="product-card animate-on-scroll from-bottom" data-category="kottu">
                 <div class="product-slider-container">
                     <div class="product-slider">
@@ -92,7 +93,8 @@
                 </div>
                 <div class="product-card-body">
                     <h3 class="product-title">Chicken Kottu</h3>
-                    <p class="product-description">Shredded godamba roti stir-fried with chicken, vegetables, and aromatic spices.</p>
+                    <p class="product-description">Shredded godamba roti stir-fried with chicken, vegetables, and
+                        aromatic spices.</p>
                     <p class="product-price">Rs. 1200.00</p>
                     <div class="product-actions">
                         <button class="btn-add-to-cart">Add to Cart</button>
@@ -102,12 +104,14 @@
             <div class="product-card animate-on-scroll from-bottom" data-category="mains">
                 <div class="product-slider-container">
                     <div class="product-slider">
-                        <div class="product-slide active"><img src="assets/images/food/devil1.jpg" alt="Devilled Dish"></div>
+                        <div class="product-slide active"><img src="assets/images/food/devil1.jpg" alt="Devilled Dish">
+                        </div>
                     </div>
                 </div>
                 <div class="product-card-body">
                     <h3 class="product-title">Devilled Beef</h3>
-                    <p class="product-description">Tender beef cubes tossed in a fiery, sweet and sour sauce with peppers and onions.</p>
+                    <p class="product-description">Tender beef cubes tossed in a fiery, sweet and sour sauce with
+                        peppers and onions.</p>
                     <p class="product-price">Rs. 1900.00</p>
                     <div class="product-actions">
                         <button class="btn-add-to-cart">Add to Cart</button>
@@ -171,6 +175,62 @@
             </div>
 
         </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <div class="section-title animate-on-scroll from-bottom">
+            <p class="sub-heading">GET IN TOUCH</p>
+            <h2>Let's Connect</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-details animate-on-scroll from-left">
+                <div class="contact-info-item">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-text">
+                        <h4>Address</h4>
+                        <p>11:11 Restaurant, Haldummulla, Sri Lanka</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <div class="info-text">
+                        <h4>Reservation</h4>
+                        <p>+94 77 123 4567</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="icon"><i class="fas fa-clock"></i></div>
+                    <div class="info-text">
+                        <h4>Hours</h4>
+                        <p>Monday - Sunday: 10:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact-form-container animate-on-scroll from-right">
+                <form action="handle_contact.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-outline">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="contact-map-container animate-on-scroll from-right">
+            <div id="googleMap"></div>
+        </div>
+    </div>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=11:11+Restaurant,+Walhaputhenna,+Haldummulla" target="_blank" class="btn-outline directions-btn">
+    <i class="fas fa-directions"></i> GET DIRECTIONS
+</a>
     </div>
 </section>
 

@@ -19,10 +19,10 @@
         </a>
         <nav class="main-nav">
             <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">MENU</a></li>
-                <!-- Add other links here -->
+            <li><a href="#hero-video">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="hamburger-menu">
